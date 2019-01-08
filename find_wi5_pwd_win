@@ -1,0 +1,13 @@
+#go to nesh command line
+netsh
+
+#Type this cmd to list all profiles which you connected before
+#nesh > wlan show profile
+wlan show profile
+
+#From thisselect the profile you want to find the password
+#To view entire wifi profile info and security setting 
+wlan show profile <PROFILE_NAME>
+
+#To show the password use "key=clear" option
+wlan show profile <PROFILE_NAME> key=clear
